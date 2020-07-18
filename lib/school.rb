@@ -10,7 +10,7 @@ end
 
 def add_student(student_name, grade)
   roster[grade] ||= []              # ||= if  the key in roster not already exist set it to empty array ,
-                                    #if that key  already has key value will not loose that value because of this operator ||= 
+                                    #if that key  already has key value will not loose that value because of this operator ||=
                                      #when we assign to empty array
   roster[grade] << student_name
 end
